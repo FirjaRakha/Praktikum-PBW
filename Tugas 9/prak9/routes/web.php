@@ -16,6 +16,6 @@ Route::get('/gallery', [GalleryController::class, 'index']);
 Route::get('/users', [UserController::class, 'index']);
 Route::get('/users/create', [UserController::class, 'create']);
 Route::post('/users', [UserController::class, 'store']);
-Route::get('/users/{id}', [Controllers\UserController::class, 'show']);
+Route::get('/users/{id}', [UserController::class, 'show']);
 
 

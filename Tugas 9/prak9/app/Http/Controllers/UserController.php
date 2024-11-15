@@ -28,7 +28,10 @@ class UserController extends Controller
 
         return redirect('/users');
     }
-    public function show ($id){
-        dd($id);
+    public function show (User $user){
+
+        vars: return view ('users.show', [
+        'user' => $user,
+        ]);
     }
 }
