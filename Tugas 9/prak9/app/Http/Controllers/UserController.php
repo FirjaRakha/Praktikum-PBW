@@ -24,13 +24,11 @@ class UserController extends Controller
             'password' => ['required', 'min:8']
         ]);
 
-        User::create($request->only('name', 'email', 'password'));
-
         return redirect('/users');
     }
     public function show (User $user){
 
-        vars: return view ('users.show', [
+        vars: return view ('users/show', [
         'user' => $user,
         ]);
     }

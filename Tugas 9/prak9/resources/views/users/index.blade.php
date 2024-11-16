@@ -33,7 +33,7 @@
                     <td>{{$user->email}}</td>
                     <td>{{(new \Carbon\Carbon($user->published_at))->format('d F Y')}}</td>
                     <td>
-                        <a href="/users{{$users->id}}">
+                        <a href="/users/{{$user->id}}">
                         View</a>
                     </td>
                 </tr>
