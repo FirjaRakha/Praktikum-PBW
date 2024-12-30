@@ -1,0 +1,1 @@
+<textarea <?php echo e($attributes->merge(['class' => 'w-full border-zinc-800 bg-zinc-950 rounded-md shadow-sm'])); ?>><?php echo e($slot); ?></textarea><?php /**PATH C:\Users\ASUS\.config\herd\config\valet\Sites\prak_laravelbreeze2\resources\views/components/textarea.blade.php ENDPATH**/ ?>

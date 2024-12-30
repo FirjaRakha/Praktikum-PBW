@@ -1,0 +1,1 @@
+<span class="bg-zinc-800 text-white text-xs font-semibold rounded-full px-2 py-1"><?php echo e($slot); ?></span><?php /**PATH C:\Users\ASUS\.config\herd\config\valet\Sites\prak_laravelbreeze\resources\views/components/badge.blade.php ENDPATH**/ ?>
